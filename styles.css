@@ -265,3 +265,25 @@ thead th {
   text-transform: uppercase;
   color: #4a5558;
 }
+
+/* Site-wide top bar, links every page back to the home page */
+.site-header {
+  background: var(--banner);
+  border-bottom: 3px solid var(--accent);
+  padding: 0.7rem 0;
+}
+
+.site-header a {
+  display: block;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: var(--accent-text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-header a:hover,
+.site-header a:focus {
+  text-decoration: underline;
+}
